@@ -584,7 +584,6 @@ setMethod("autoplot", "TxDbOREnsDb", function(object, which, ...,
                  "AnnotationFilterList combining such object, or a formula ",
                  "representing a filter expression.")
         args.non$which <- which
-        cat("class which: ", class(which), "\n")
     }
 
     aes.res <- do.call(aes, args.aes)
